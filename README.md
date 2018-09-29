@@ -1,4 +1,4 @@
-## Exercise: Creature (25 Points)
+## Exercise: Creatures (25 Points)
 
 The objective of this project is to learn about inheritance in the context of object oriented programming
 and the syntax and semantics in C++.
