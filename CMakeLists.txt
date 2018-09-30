@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.5)
 project (EX08-Creatures)
 
 set(SOURCE_PREFIX "creature")
-set(EXEC_NAME "Creature")
+set(EXEC_NAME "Creatures")
 set(CMAKE_CXX_STANDARD 11)
 
 if(EXISTS ${CMAKE_HOME_DIRECTORY}/cs140/CMakeLists.txt)
