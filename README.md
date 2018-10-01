@@ -13,7 +13,7 @@ the forked project when you clone it in CLion.
 
 ### Requirements of this project
 
-This project is based on the programming assignment 9 from Chapter 14 on page 658 of _Absolute C++_(5th Edition). In 
+This project is based on the programming assignment 4 from Chapter 15 on page 687 of _Absolute C++_(5th Edition). In 
 it you will create several classes (in the namespace `edu::sbcc::cs140`). These classes
 resemble creatures from a simple game. I have supplied you with the implementation of the parent
 class `Creature` and provided the implemenations of all the common methods. You will then have
