@@ -1,6 +1,6 @@
-[submodule "cs140"]
-	path = cs140
-	url = https://github.com/sbcc-cs140-fall2018/cs140-support-lib.git
+[submodule "csv13-lib"]
+	path = csv13-lib
+	url = https://github.com/vcc-csv13-fall2018/csv13-lib.git
 [submodule "githooks"]
 	path = githooks
-	url = https://github.com/sbcc-cs140-fall2018/githooks.git
+	url = https://github.com/vcc-csv13-fall2018/githooks.git

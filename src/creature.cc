@@ -7,7 +7,7 @@
 #include <random>
 #include <chrono>
 
-namespace edu { namespace sbcc { namespace cs140 {
+namespace edu { namespace vcccd { namespace vc { namespace csv13 {
 
     int Creature::getDamage() const {
         std::mt19937 generator(std::chrono::system_clock::now().time_since_epoch().count());
@@ -15,4 +15,4 @@ namespace edu { namespace sbcc { namespace cs140 {
         return damageDistribution(generator);
     }
 
-}}}
+}}}}

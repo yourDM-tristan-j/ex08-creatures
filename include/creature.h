@@ -7,7 +7,7 @@
 #include <cstdint>
 #include <string>
 
-namespace edu { namespace sbcc { namespace cs140 {
+namespace edu { namespace vcccd { namespace vc { namespace csv13 {
 
 class Creature
 {
@@ -43,7 +43,7 @@ public:
     virtual const std::string &getSpecies() const = 0;
 };
 
-}}}
+}}}}
 
 // Include your Human, Cyberdemon, Balrog and Elf declarations here.
 

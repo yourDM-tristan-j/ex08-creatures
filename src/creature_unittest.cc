@@ -44,11 +44,11 @@
 
 namespace {
 
-    using edu::sbcc::cs140::Creature;
-    using edu::sbcc::cs140::Human;
-    using edu::sbcc::cs140::CyberDemon;
-    using edu::sbcc::cs140::Balrog;
-    using edu::sbcc::cs140::Elf;
+    using edu::vcccd::vc::csv13::Creature;
+    using edu::vcccd::vc::csv13::Human;
+    using edu::vcccd::vc::csv13::CyberDemon;
+    using edu::vcccd::vc::csv13::Balrog;
+    using edu::vcccd::vc::csv13::Elf;
 
 // Tests edu::sbcc:cs140::String.
 
