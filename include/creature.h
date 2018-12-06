@@ -6,6 +6,10 @@
 #define CREATURE_CREATURE_H
 #include <cstdint>
 #include <string>
+#include <cmath>
+#include <cstdlib>
+#include <iostream>
+using namespace std;
 
 namespace edu { namespace vcccd { namespace vc { namespace csv13 {
 
@@ -14,6 +18,7 @@ class Creature
 protected:
     static constexpr uint32_t DEFAULT_HIT_POINTS = 10;
     static constexpr uint32_t DEFAULT_STRENGTH = 10;
+
 
 private:
     int strength; // How much damage we can inflict
@@ -37,11 +42,25 @@ public:
 
     // Returns amount of damage this creature
     // inflicts in one round of combat
-    virtual int getDamage() const;
+    virtual int getDamage() {
+        int damage;
+        //Everybody deals damage in combat
+        //Deals a random amount ranging from 1 to maximum strength
+        damage = (rand( ) % strength);
+        if (damage == 0){
+            cout << getSpecies() << "has missed their attack!"; }
+
+        if (damage != 0 ) {
+            cout << getSpecies() << " attacks for " << damage << "points!";}
+
+
+    }
 
     // Returns type of species
     virtual const std::string &getSpecies() const = 0;
+
 };
+
 
 }}}}
 
